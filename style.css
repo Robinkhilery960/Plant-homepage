@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around ; 
+     padding: 30px;
+     align-items: center;
+     font-family: "Abel",sans-serif;
+     font-weight: 800;
+     font-size: 20px;
+}
+#navFirst{
+    position: relative;
+    left: 20px;
+}
+#navMid{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around ;
+     width: 60%; 
+}
+#navMid>div:first-child::after{ 
+    content: "";
+    display: block;
+    width:43px;
+    height: 2px;
+    background-color: #000000;
+}
+#navEnd{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around ; 
+     width: 10%; 
+}
+#navEnd>div{
+    padding: 0 25px;
+}
+
+ 
+
+
+ #midWhole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start; 
+ }
+#midWholePart1{ 
+    display: flex;
+    flex-direction: column; 
+}
+#midWholePart11{ 
+    display: flex;
+    flex-direction: column; 
+} 
+#midWholePart11>div>ul{
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+ 
+
+#midWholePart11>div>ul{ 
+    width: 40%; 
+    height: 30%; 
+    position: absolute;
+    top: 190px; 
+}
+#midWholePart11>div>ul>li:first-child~li{ 
+    font-size: 15px;
+    font-family: "Abel",sans-serif; 
+
+
+}
+li>h1{
+    font-size: 90px;
+    
+}
+
+ #midWholePart12{
+   width: 25%;  
+   position: relative;
+   top: 280px;
+   left: 90px;
+   color: #ffffff; 
+   font-family: "Abel",sans-serif;
+   text-align: center; 
+}
+#midWholePart121{
+     border-radius: 30px;
+    background-color: #466D50;
+    padding:10px 45px;
+
+ }
+ #midWholePart122{
+    position: absolute;
+    top: 18px;
+    left: 190px;
+ }
+#midWholePart121>div>h1{
+    display: inline;
+    
+}
+#midWholePart13{ 
+    display: flex;
+    flex-direction: row; 
+    width: 60%;
+    position: relative;
+    top: 340px;
+    left: 90px;
+}  
+.midWholePart13Parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+ .text{
+    font-size: 10px;
+ }
+ h4{
+    font-size: 20px;
+ }
+
+#imgMain{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 500px;
+    width: 600px;
+}
+
+#care,#light,#feeding{
+margin: 10px ;
+position: relative;
+bottom: 10px;
+}
+
